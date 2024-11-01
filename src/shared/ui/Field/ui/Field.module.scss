@@ -1,0 +1,24 @@
+.inputContainer {
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--title);
+  border-radius: 5px;
+}
+
+.errorBorder {
+  border: 3px solid var(--error);
+}
+
+.errorLegend {
+  position: absolute;
+  bottom: -15px;
+  color: var(--error);
+  background-color: var(--bg);
+}
+
+.errorText {
+  padding: 0;
+  margin: 0;
+  color: var(--error);
+  font-size: var(--size-md);
+}
