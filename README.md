@@ -7,7 +7,7 @@
 3. Пробросьте ошибку в компонет Field в комопенте MainPage
 
 ## Материалы:
-Видео - 
+Видео - https://youtube.com/shorts/eAlPsLC5lKc?feature=share
 
 ## Запуск проекта:
 * `npm i` - установка библиотек
