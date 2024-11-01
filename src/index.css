@@ -2,18 +2,22 @@
 
 :root {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Russo One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 22px;
 
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(235, 236, 255);
+
+  * {
+    box-sizing: border-box;
+  }
 
   ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   body {
@@ -28,10 +32,5 @@
 
   input[type="number"] {
     -moz-appearance: textfield;
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
   }
 }

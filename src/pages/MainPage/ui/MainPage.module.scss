@@ -1,16 +1,33 @@
 .pageContainer {
-  box-sizing: border-box;
   width: 100%;
-  padding: 30px;
-
-  height: 600px;
-  overflow: auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
 
   margin: 50px auto;
+}
+
+.image {
+  margin-bottom: 15px;
+}
+
+.formSection {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  list-style-type: none;
 }
